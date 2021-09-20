@@ -13,7 +13,7 @@ def getW2VVocabWords(initialWs, w2v_model):
             newWs.append(W)
     return newWs
 
-WordVectors_File = "/windows/drive2/For PhD/KR Lab/DATASETS/GoogleNews-vectors-negative300.bin"
+WordVectors_File = AUX_DATA_DIR + "GoogleNews-vectors-negative300.bin"
 word2vec_model =  models.word2vec.Word2Vec.load_word2vec_format(WordVectors_File, binary=True);
 word2vec_model.init_sims(replace=True)
 word2Index = {}

@@ -16,10 +16,8 @@ def addPosition(sentence, nounPair):
 
 
 def testAccuracy():
-    devFile = "/windows/drive2/For PhD/KR Lab/ASU_Vision/VQA/VQA_torch/" \
-              "relationsdata/data/Relations_Annotation - First5000Samples.tsv"
-    devFile = "/data/somak/VQA/VQA_torch/relationsdata/data/Relations_Annotation - First5000Samples.tsv"
-
+    devFile = "../relationsdata/data/Relations_Annotation - First5000Samples.tsv"
+   
     w2v.loadW2VModel()
 
     accuracy = 0
