@@ -1,0 +1,241 @@
+['green', 'clock']	is	what color is the clock	the clock is green in colour
+['colour', 'clock']	are green in	what color is the clock	the clock is green in colour
+['red', 'man']	is in	what color is the man's shirt	the man is in a red shirt
+['shirt', 'man']	is in	what color is the man's shirt	the man is in a red shirt
+['shirt', 'red']	red shirt	what color is the man's shirt	the man is in a red shirt
+['work', 'white']	work	where is the white work truck	a white work truck parked on the street. 
+['truck', 'white']	work	where is the white work truck	a white work truck parked on the street. 
+['truck', 'work']	work	where is the white work truck	a white work truck parked on the street. 
+['street', 'white']	parked on the	where is the white work truck	a white work truck parked on the street. 
+['street', 'work']	parked on the	where is the white work truck	a white work truck parked on the street. 
+['street', 'truck']	parked on the	where is the white work truck	a white work truck parked on the street. 
+['green', 'clock']	is	what color is the clock	the clock is green in colour
+['colour', 'clock']	are green in	what color is the clock	the clock is green in colour
+['red', 'man']	wears	what color shirt is the man wearing	the man wears a red t shirt 
+['t', 'man']	wears red	what color shirt is the man wearing	the man wears a red t shirt 
+['shirt', 'man']	wears red	what color shirt is the man wearing	the man wears a red t shirt 
+['shirt', 'red']	t	what color shirt is the man wearing	the man wears a red t shirt 
+['shirt', 't']	t shirt	what color shirt is the man wearing	the man wears a red t shirt 
+['left', 'man']	the	what color jacket is the man to the right wearing	the man to the left is wearing glasses
+['glasses', 'man']	is behind the	what color jacket is the man to the right wearing	the man to the left is wearing glasses
+['building', 'white']	building white	what color is the building closest to the men	white building is at the back
+['back', 'building']	is at the	what color is the building closest to the men	white building is at the back
+['black', 'man']	is in	what color shoes is the man in the grey hoodie wearing	the man is in black pants
+['pants', 'man']	appears black in	what color shoes is the man in the grey hoodie wearing	the man is in black pants
+['bricks', 'building']	made	what kind of material is the building closest made of	building is made of bricks
+['left', 'man']	the	what is on the man's face wearing the red shirt	the man to the left is wearing glasses
+['glasses', 'man']	is behind the	what is on the man's face wearing the red shirt	the man to the left is wearing glasses
+['bricks', 'sidewalk']	is	what is the sidewalk made of	sidewalk is made of bricks
+['edge', 'cars']	are parked along	where are the cars parked	cars are parked along the edge of the street
+['street', 'cars']	are near the	where are the cars parked	cars are parked along the edge of the street
+['red', 'man']	dressed in	what color are the man's pants wearing the red shirt	a man dressed in a red shirt and black pants. 
+['shirt', 'man']	dressed in yellow	what color are the man's pants wearing the red shirt	a man dressed in a red shirt and black pants. 
+['shirt', 'red']	red shirt	what color are the man's pants wearing the red shirt	a man dressed in a red shirt and black pants. 
+['black', 'red']	shirt	what color are the man's pants wearing the red shirt	a man dressed in a red shirt and black pants. 
+['black', 'shirt']	black shirt	what color are the man's pants wearing the red shirt	a man dressed in a red shirt and black pants. 
+['pants', 'man']	in black shirt	what color are the man's pants wearing the red shirt	a man dressed in a red shirt and black pants. 
+['pants', 'red']	black shirt	what color are the man's pants wearing the red shirt	a man dressed in a red shirt and black pants. 
+['pants', 'shirt']	black	what color are the man's pants wearing the red shirt	a man dressed in a red shirt and black pants. 
+['pants', 'black']	black pants	what color are the man's pants wearing the red shirt	a man dressed in a red shirt and black pants. 
+['gray', 'man']	in	what color is the man's hoodie	a man in a gray hoodie
+['hoodie', 'man']	gray in	what color is the man's hoodie	a man in a gray hoodie
+['hoodie', 'gray']	gray	what color is the man's hoodie	a man in a gray hoodie
+['red', 'man']	is in	what color is the building behind the man in the red shirt	the man is in a red shirt
+['shirt', 'man']	is in	what color is the building behind the man in the red shirt	the man is in a red shirt
+['shirt', 'red']	red shirt	what color is the building behind the man in the red shirt	the man is in a red shirt
+['sidewalk', 'trees']	are on the	what color are the trees	trees are on the sidewalk
+['left', 'man']	the	what color is the jumper the man is wearing	the man to the left is wearing glasses
+['glasses', 'man']	is behind the	what color is the jumper the man is wearing	the man to the left is wearing glasses
+['shadow', 'tree']	are casting	what is on the tree	tree is casting a shadow on the sidewalk
+['sidewalk', 'tree']	is on the	what is on the tree	tree is casting a shadow on the sidewalk
+['van', 'white']	white truck	where is the white vehicle	white van is parked near the road
+['edge', 'cars']	are parked along	where are cars	cars are parked along the edge of the street
+['street', 'cars']	are near the	where are cars	cars are parked along the edge of the street
+['leaves', 'tree']	has no	what has no leaves	tree has no leaves
+['glasses', 'man']	is wearing	who is wearing glasses	a man is wearing glasses
+['clock', 'big']	clock	how tall is the clock	there is a big clock on the pole
+['pole', 'clock']	on the	how tall is the clock	there is a big clock on the pole
+['sidewalk', 'trees']	are on the	what color are the trees	trees are on the sidewalk
+['bricks', 'building']	made	what is the building made of	building is made of bricks
+['sidewalk', 'trees']	are on the	where are the trees	trees are on the sidewalk
+['edge', 'cars']	are parked along	where are the cars	cars are parked along the edge of the street
+['street', 'cars']	are near the	where are the cars	cars are parked along the edge of the street
+['road', 'trees']	are along	where are the trees	trees are along the road
+['red', 'man']	is in	what color shirt does the man in black pants have on	the man is in a red shirt
+['shirt', 'man']	is in	what color shirt does the man in black pants have on	the man is in a red shirt
+['shirt', 'red']	red shirt	what color shirt does the man in black pants have on	the man is in a red shirt
+['black', 'man']	is in	what color shoes does the man in red have on	the man is in black pants
+['pants', 'man']	appears black in	what color shoes does the man in red have on	the man is in black pants
+['green', 'clock']	is	where is the clock	the clock is green in colour
+['white', 'building']	are painted	what color is the building	building is painted white
+['side', 'cars']	are parked on	how are the cars	cars are parked on the side of the road
+['road', 'cars']	on the side	how are the cars	cars are parked on the side of the road
+['green', 'clock']	is	what color is the clock	the clock is green in colour
+['colour', 'clock']	are green in	what color is the clock	the clock is green in colour
+['building', 'sign']	on the	where is the sign	a sign on the facade of the building
+['truck', 'construction']	construction	where is the construction truck	construction truck parked by curb
+['curb', 'construction']	parked by	where is the construction truck	construction truck parked by curb
+['curb', 'truck']	parked by	where is the construction truck	construction truck parked by curb
+['sidewalk', 'men']	are on the	how many men are on the sidewalk	the men are on the sidewalk
+['green', 'pole']	is	what is on the green pole	the clock pole is green
+['bricks', 'sidewalk']	is	what is the sidewalk made of	sidewalk is made of bricks
+['clock', 'big']	clock	why is there a clock affixed to the sidewalk	there is a big clock on the pole
+['grey', 'man']	is in	where is the man with a gray sweatshirt	the man is in a grey hoodie
+['hoodie', 'man']	is in	where is the man with a gray sweatshirt	the man is in a grey hoodie
+['white', 'back']	back white in	when was the white sedan photographed in the foreground	the back of a white car
+['car', 'white']	car white	when was the white sedan photographed in the foreground	the back of a white car
+['photo', 'men']	conversing in	how many men are in the picture	there are two men conversing in the photo
+['sidewalk', 'men']	are on the	why are the men standing on the sidewalk in the photo	the men are on the sidewalk
+['leaves', 'trees']	do not have	how many trees do you see	the trees do not have leaves
+['sunny', 'day']	was	what time of day is it	the day was sunny
+['sidewalk', 'men']	are on the	where are the men standing	the men are on the sidewalk
+['side', 'cars']	are parked on	how are the cars	cars are parked on the side of the road
+['road', 'cars']	on the side	how are the cars	cars are parked on the side of the road
+['bricks', 'building']	made	what material is the building	building is made of bricks
+['red', 'man']	is in	what color is the man's shirt	the man is in a red shirt
+['shirt', 'man']	is in	what color is the man's shirt	the man is in a red shirt
+['shirt', 'red']	red shirt	what color is the man's shirt	the man is in a red shirt
+['street', 'vehicles']	parked on the	what is parked on the street	vehicles parked on the street
+['hoodie', 'man']	is in	what color is the right man's hoodie	the man is in a grey hoodie
+['green', 'clock']	is	what color is the clock	the clock is green in colour
+['colour', 'clock']	are green in	what color is the clock	the clock is green in colour
+['green', 'trees']	are very	what color are the trees	trees are so green 
+['glass', 'building']	has many	what has lots of glass windows	the building has many glass windows
+['glass', 'many']	glass	what has lots of glass windows	the building has many glass windows
+['windows', 'building']	has many	what has lots of glass windows	the building has many glass windows
+['windows', 'many']	glass	what has lots of glass windows	the building has many glass windows
+['windows', 'glass']	glass	what has lots of glass windows	the building has many glass windows
+['street', 'man']	is off the	what is the man doing	man is about to cross the street
+['walk', 'sign']	says	what does the crosswalk sign say	the sign says walk 
+['backpack', 'man']	has	what is on the man's back	the man has a backpack on
+['lines', 'white']	line white	what color are the lines in the road	there are white lines on the road
+['road', 'white']	lines on	what color are the lines in the road	there are white lines on the road
+['road', 'lines']	on the	what color are the lines in the road	there are white lines on the road
+['bricks', 'sidewalk']	is	what is the sidewalk made out of	the sidewalk is made of bricks
+['black', 'man']	is wearing	what color are the man's shoes	the man is wearing black
+['crossing', 'pedestrian']	pedestrian	where is the man crossing	pedestrian crossing is near were the man is
+['man', 'pedestrian']	are near the	where is the man crossing	pedestrian crossing is near were the man is
+['man', 'crossing']	are near the	where is the man crossing	pedestrian crossing is near were the man is
+['black', 'man']	is wearing	what color is the man's hair	the man is wearing black
+['road', 'cars']	beside the	where are cars	there are cars parked beside the road
+['black', 'man']	has	who has on black clothing	the man has a black jacket on
+['jacket', 'black']	jacket	who has on black clothing	the man has a black jacket on
+['windows', 'many']	many windows	where are many windows	many windows on a building
+['building', 'many']	on windows	where are many windows	many windows on a building
+['building', 'windows']	on	where are many windows	many windows on a building
+['leaves', 'trees']	are without	where are trees without leaves	trees are without leaves
+['hair', 'man']	has dark	who has black hair	man has dark hair
+['hair', 'dark']	dark hair	who has black hair	man has dark hair
+['sunny', 'day']	is	when in the day is this	the day is a sunny day
+['day', 'day']	is	when in the day is this	the day is a sunny day
+['day', 'sunny']	sunny	when in the day is this	the day is a sunny day
+['black', 'man']	is wearing	what color is the man wearing	the man is wearing black
+['street', 'man']	is off the	where is the man	man is about to cross the street
+['lines', 'white']	line white	what is the white paint there for	there are white lines on the road
+['sign', 'traffic']	traffic sign	what is the traffic like	the traffic sign says walk.
+['walk', 'traffic']	sign says	what is the traffic like	the traffic sign says walk.
+['bricks', 'sidewalk']	is	what is the sidewalk made of	the sidewalk is made of bricks
+['right', 'trees']	the	how big are the trees	the trees to the right are bare
+['bare', 'trees']	are the	how big are the trees	the trees to the right are bare
+['black', 'man']	is wearing	how tall is the man wearing the dark pants	the man is wearing black
+['lights', 'street']	street	why aren't the street lights on	street lights are not on
+['ground', 'shadow']	is on the	why are the shadows on the ground	shadow is on the ground
+['road', 'shadows']	on the	why are there shadows on the ground	there are shadows on the road
+['road', 'man']	is off the	why is the man crossing the road	the man is about to cross the road
+['car', 'white']	car white	why does the red car have a license plate	white car has been parked next to the red one
+['next', 'car']	has parked	why does the red car have a license plate	white car has been parked next to the red one
+['red', 'car']	has the	why does the red car have a license plate	white car has been parked next to the red one
+['red', 'next']	the	why does the red car have a license plate	white car has been parked next to the red one
+['one', 'car']	has the	why does the red car have a license plate	white car has been parked next to the red one
+['one', 'red']	red	why does the red car have a license plate	white car has been parked next to the red one
+['road', 'trees']	parked along the	how many trees are along the left side of the road	three trees along the road
+['car', 'red']	red	where is the red car parked	red car parked on the side of the street
+['side', 'red']	car parked on	where is the red car parked	red car parked on the side of the street
+['side', 'car']	parked on the	where is the red car parked	red car parked on the side of the street
+['street', 'car']	on the side	where is the red car parked	red car parked on the side of the street
+['lights', 'street']	street	why are the street lights off	street lights are not on
+['road', 'white']	lines on	why are there wide white stripes on the road	there are white lines on the road
+['road', 'lines']	on the	why are there wide white stripes on the road	there are white lines on the road
+['left', 'trees']	the	how many trees are on the left side next to street	the trees to the left have leaves
+['leaves', 'trees']	have left marks in	how many trees are on the left side next to street	the trees to the left have leaves
+['leaves', 'left']	have	how many trees are on the left side next to street	the trees to the left have leaves
+['black', 'man']	has	what color pants does the man have on	the man has a black jacket on
+['jacket', 'man']	has black	what color pants does the man have on	the man has a black jacket on
+['black', 'man']	is wearing	what color is the young man wearing	the man is wearing black
+['lines', 'white']	line white	what are the white lines there for	there are white lines on the road
+['bricks', 'sidewalk']	is	what is the sidewalk made of	the sidewalk is made of bricks
+['left', 'trees']	the	what is on the left	the trees to the left have leaves
+['leaves', 'left']	have	what is on the left	the trees to the left have leaves
+['right', 'trees']	the	what is on the right	the trees to the right are bare
+['bare', 'right']	are	what is on the right	the trees to the right are bare
+['backpack', 'man']	has	where is the man's backpack	the man has a backpack on
+['car', 'red']	red	why isn't the red car moving	a red car is parked on the side of the road
+['side', 'red']	parked on the	why isn't the red car moving	a red car is parked on the side of the road
+['side', 'car']	is on the	why isn't the red car moving	a red car is parked on the side of the road
+['road', 'car']	on the side	why isn't the red car moving	a red car is parked on the side of the road
+['outside', 'photo']	was taken	where was this photo taken	the photo was taken outside
+['many', 'building']	has	what is the building to the right made of	the building has many glass windows
+['windows', 'building']	has many	what is the building to the right made of	the building has many glass windows
+['pole', 'sign']	on the	what is attached to the pole on the corner	there is a sign on the pole
+['car', 'red']	red	what color are the plates on the red car	the red car has white plates
+['white', 'car']	has	what color are the plates on the red car	the red car has white plates
+['plates', 'red']	has white	what color are the plates on the red car	the red car has white plates
+['plates', 'car']	has white	what color are the plates on the red car	the red car has white plates
+['plates', 'white']	plates	what color are the plates on the red car	the red car has white plates
+['black', 'man']	is wearing	what color is the young man wearing	the man is wearing black
+['green', 'trees']	with	how many trees have green leaves	three trees with green leaves
+['leaves', 'trees']	green with	how many trees have green leaves	three trees with green leaves
+['leaves', 'green']	green leaves	how many trees have green leaves	three trees with green leaves
+['leafless', 'tree']	with	what has leafless branches	tree with leafless branches
+['branches', 'tree']	trees with	what has leafless branches	tree with leafless branches
+['branches', 'leafless']	branches	what has leafless branches	tree with leafless branches
+['curb', 'red']	parked at	what is parked at the curb	red car parked at the curb
+['curb', 'car']	at the	what is parked at the curb	red car parked at the curb
+['street', 'man']	crossing the	what is the man crossing the street on	man crossing the street
+['street', 'man']	is off the	what is the man about to do	man is about to cross the street
+['road', 'trees']	next the	what is next to the road	trees next to the road
+['lines', 'white']	line white	what are the white lines on the road	there are white lines on the road
+['road', 'white']	lines on	what are the white lines on the road	there are white lines on the road
+['road', 'lines']	on the	what are the white lines on the road	there are white lines on the road
+['road', 'trees']	are along	where are the trees	trees are along the road
+['car', 'red']	red	what is the white square on the car	a red car is parked on the side of the road
+['side', 'car']	is on the	what is the white square on the car	a red car is parked on the side of the road
+['road', 'car']	on the side	what is the white square on the car	a red car is parked on the side of the road
+['bare', 'trees']	are the	why is the tree bare	the trees to the right are bare
+['bare', 'right']	are	why is the tree bare	the trees to the right are bare
+['black', 'man']	is wearing	what color clothes is the man wearing	the man is wearing black
+['car', 'red']	red	what color is the car parked along the street	red car is parked along the road
+['road', 'car']	parked along the	what color is the car parked along the street	red car is parked along the road
+['background', 'skyscraper']	in the	what type of building is in the background	skyscraper in the background
+['street', 'pedestrian']	painted on	what are the white painted lines going across the street	pedestrian crossing painted on the street
+['street', 'crossing']	painted on	what are the white painted lines going across the street	pedestrian crossing painted on the street
+['car', 'red']	red	what color is the car parked in front of the red car	the red car has a white numberplate
+['white', 'car']	has	what color is the car parked in front of the red car	the red car has a white numberplate
+['numberplate', 'red']	has white	what color is the car parked in front of the red car	the red car has a white numberplate
+['numberplate', 'car']	has white	what color is the car parked in front of the red car	the red car has a white numberplate
+['green', 'trees']	are very	what color are the trees	trees are so green 
+['pole', 'sign']	on the	what is on the pole	there is a sign on the pole
+['street', 'green']	trees along	what is along the street	green trees along the street
+['street', 'trees']	parked along the	what is along the street	green trees along the street
+['bricks', 'sidewalk']	is	how is the sidewalk	the sidewalk is made of bricks
+['lines', 'white']	line white	why are the white lines there	there are white lines on the road
+['left', 'trees']	the	what is on the left	the trees to the left have leaves
+['leaves', 'left']	have	what is on the left	the trees to the left have leaves
+['side', 'trees']	on the	where are the trees located	trees on the side of the road. 
+['road', 'trees']	on the side	where are the trees located	trees on the side of the road. 
+['bricks', 'sidewalk']	is	how is the sidewalk made	the sidewalk is made of bricks
+['backpack', 'man']	has	what is on the man's back	the man has a backpack on
+['lines', 'white']	line white	what color are the lines on the road	there are white lines on the road
+['road', 'white']	lines on	what color are the lines on the road	there are white lines on the road
+['road', 'lines']	on the	what color are the lines on the road	there are white lines on the road
+['road', 'cars']	beside the	how many cars are parked	there are cars parked beside the road
+['black', 'man']	is wearing	what color is the man's jacket	the man is wearing black
+['photo', 'trees']	are in the	how many trees are seen in the left background of the picture	trees are in the photo
+['crosswalk', 'man']	walking in	where is the man walking	man walking in a crosswalk
+['markings', 'white']	white	how many white markings are seen on the street's crosswalk	white markings on the street
+['street', 'white']	markings on	how many white markings are seen on the street's crosswalk	white markings on the street
+['street', 'markings']	on the	how many white markings are seen on the street's crosswalk	white markings on the street
+['many', 'building']	has	what is the material of the building's window	the building has many glass windows
+['glass', 'building']	has many	what is the material of the building's window	the building has many glass windows
+['windows', 'building']	has many	what is the material of the building's window	the building has many glass windows
+['backpack', 'man']	has	what is strapped on the man's back	the man has a backpack on
