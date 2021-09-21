@@ -233,10 +233,19 @@ def processAndWriteCleanedTrainingData(questionsFile, regionDescriptionsFileName
 	cleanedData.close()
 ##########################################################
 
-questionsFile = "../sortedqaDependencies.txt"
+'''
+sortedqaDependencies.txt
+- Each line: <ImageID>\t<question>\t<answer>\t<list_of_noun_pairs>
+- Is the man playing with a dog?          <list_of_noun_pairs>: man-2,dog-6;...
+- should be sorted by Image-IDs. Then one can run the script multiple times parallely with different image ID ranges.
+
+sortedregionDescriptionsDependencies.txt
+- Each line: <ImageID>\t<dense-caption>\t<confidence-score>
+'''
+questionsFile = "../sortedqaDependencies.txt"  
 regionDescriptionsFileName = "../sortedregionDescriptionsDependencies.txt"
 
-allPredicatesfile = "../vgAndQCPredicates.txt";#"../finalSortedPredicates2.txt"
+allPredicatesfile = "vqa_torch/relationsdata/data/vgAndQCPredicates.txt";#"../finalSortedPredicates2.txt"
 curPhraseID = 0
 phrasesStore = {}
 
@@ -260,35 +269,3 @@ with open(allPredicatesfile,'r') as allPredicatesF:
 cleanedDataFileName = "../nounPairPhraseQuestionTraining.txt";
 processAndWriteCleanedTrainingData(questionsFile, regionDescriptionsFileName, \
 	cleanedDataFileName, START=0, END=-1);
-# EXISTENCE_THRESHOLD = 0.6
-# i=0
-# with open(questionsFile,'r') as questionsF:
-# 	for line in questionsF:
-# 		tokens = line.split('\t');
-# 		imageID = int(tokens[0]);
-# 		question = tokens[1][:-1].strip().lower()
-# 		answer = tokens[2][:-1].strip().lower()
-# 		npsInQuestion = (tokens[3].split(";"))[:-1]
-# 		print "Q: "+ question+";\tA: "+answer
-# 		phrase = getMostSimilarPhrase(imageID, question, answer, regionDescriptF);
-# 		if phrase == None:
-# 			print "Phrase Not Found due to OOV"
-# 			continue;
-# 		print "Selected Phrase: "+ phrase[0]
-# 		wordPairsInPhrase = (phrase[1].split(";"))[:-1]; # the last index is empty
-# 		postaggedPhrase = nltk_util.getPosTags(phrase[0])
-# 		nounPairsInPhrase = getAllNounPairs(postaggedPhrase,wordPairsInPhrase);
-# 		for pairInPhrase in nounPairsInPhrase:
-# 			#print pairInPhrase
-# 			#if not pairPassesPosTagCheck(pairInPhrase, postaggedPhrase):
-# 			#	continue			
-# 			sim = getPairSimilarity(npsInQuestion,pairInPhrase);
-# 			if sim > EXISTENCE_THRESHOLD:
-# 				print str(pairInPhrase)+"\t"+phrase[0]+"\t"+question
-# 				relation = getRelationUsingHeuristics(pairInPhrase, phrase[0], question, allPredicates)
-# 				cleanedData.write(str(getWords(pairInPhrase))+"\t"+ relation+"\t" + question+"\t"+phrase[0]+"\n");
-# 				i=i+1
-# 				if i%1000==0:
-# 					cleanedData.flush()
-
-# cleanedData.close()
