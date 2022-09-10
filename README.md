@@ -1,5 +1,7 @@
 ## VQA PSL AAAI 2018, Aditya, Yang, Baral 
 
+```Warning: This may not have complete instructions to run the code. Especially, as it depends on dense captioning results etc.```
+
 This repo contains necessary helper codes to reproduce the results in [Explicit Reasoning over End-to-End Neural Architectures for Visual Question Answering](https://arxiv.org/abs/1803.08896) which was presented
   in AAAI 2018. 
 - Data creation: `matlab_codes/train.m` (for relation prediction matrices), `relationsdata/code/datapreparation.py` (for training data preparation)
