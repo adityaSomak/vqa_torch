@@ -29,3 +29,17 @@ Before running `vqa_engine/main.py` (according to `vqa_engine/README`), please f
    - `cd PSLQA`
    - `sudo python setup.py sdist`
    - `sudo pip install --upgrade dist/PSLplus-0.1.tar.gz`
+
+## Pre-processing
+1. We process the images through jcjohnson/densecap: Dense image captioning in Torch (github.com) to get the dense captions per image. Output should be of the form. ```<image_id>\t<dense-caption>\t<confidence-score>```
+2. Run the [CoAttn code](jiasenlu/HieCoAttenVQA (github.com)) on each image separately to get the neural priors.
+3. ```preprocess_qa_descriptions.py``` takes the raw outputs from densecap and CoAttn, and just writes out the important columns required (basically processes json and creates tsv files).
+4. Once you have the outputs, you need to sort the output from above by Image IDs. You can simply use bash shell commands such as `sort` for this. 
+5. You need to run the syntactic dependency parser using corenlp and then add a column that will add the list of all connected word-pairs for ```sortedqaDependencies.txt```
+  - Is the man playing with a dog?          
+  - <list_of_noun_pairs>: man-3,dog-7;is-1,man-3; ....
+Follow L237-247 comments in `datapreparation.py`, so that formats match. Next is noun-pair selection and relation prediction using heuristics
+6. datapreparation.py takes in sortedqaDependencies.txt (CoAttn processed output) sortedregionDescriptionsDependencies.txt (densecap processed output).
+  - It will produce something that will look like [this file](https://github.com/adityaSomak/vqa_torch/blob/main/relationsdata/data/nounPairPhraseQuestionTraining.txt)
+7. Then use [test_psl.py](https://github.com/adityaSomak/vqa_torch/blob/main/vqa_engine/train/test_psl.py). 
+  - Run stage 1 with proper command line arguments to get the triplets. The triplet output should look like [11.txt](https://github.com/adityaSomak/PSLQA/blob/master/pslplus/data/vqa_demo/expt2_aaai18/11.txt)
